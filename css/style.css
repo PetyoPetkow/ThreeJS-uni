@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #000;
+}
+
+header {
+  margin-top: 3em;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+#container3D canvas {
+  width: 100vw !important;
+  height: 100vh !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  color: white;
+  max-width: 200px;
+  word-wrap: break-word;
+  margin-bottom: 40px;
+  margin-right: 40px;
+}
